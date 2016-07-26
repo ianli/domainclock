@@ -1,8 +1,8 @@
 Domain Clock
 ============
 
-Domain Clock generates domain names of the current time.
-For example, [fivethirtyeight.com](http://fivethirtyeight.com) appears when the time is 5:38 PM.
+Domain Clock tells time using domain names.
+For example, at 5:38pm, Domain Clock might show [fivethirtyeight.com](http://fivethirtyeight.com).
 
 I created Domain Clock after browsing a web site made of four numbers and
 realizing that the numbers represent time with digits for hours and minutes.
