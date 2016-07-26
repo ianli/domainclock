@@ -1,0 +1,59 @@
+/**
+ * Domain Clock
+ * http://ianli.com/domainclock/
+ *	
+ * Copyright (c) Ian Li http://ianli.com
+ * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
+ */
+
+body {
+	color:#ccc;
+	background-color:#000;
+}
+a, a:hover { color:#c00; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* Domains */
+#display {
+	padding-top:150px;
+	min-height:400px;
+	text-align:center;
+}
+	#clock {
+		line-height:1em;
+		font-weight:bold;
+		font-size:100px;
+		letter-spacing:-0.01em;
+	}
+
+/* Footer */
+#ft {
+	margin-bottom:10px;
+	text-align:center;
+}
+	#ft h1 {
+		display:inline;
+		font-size:13px;
+		font-weight:bold;
+		color:#ccc;
+	}
+
+/* About */
+#about {
+	display:none;
+	padding:10px;
+	border:1px solid #222;
+	background-color:rgba(0,0,0,0.5);
+}
+	#about h2 {
+		font-size:13px;
+		font-weight:bold;
+		color:#ccc;
+	}
+	#about ul {
+		margin-left:0;
+		margin-right:0;
+		padding-left:0;
+		padding-right:0;
+		list-style:none;
+	}

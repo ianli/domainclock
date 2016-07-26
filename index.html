@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+  Domain Clock
+  http://ianli.com/domainclock/
+  
+  Copyright (c) Ian Li http://ianli.com
+  Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
+-->
+<html>
+<head>
+  <title>Domain Clock by Ian Li</title>
+  
+  <!-- Blueprint -->
+  <link rel="stylesheet" href="stylesheets/cw10gw20cc24/screen.css" type="text/css" media="screen, projection" />    
+  <!--[if IE]><link rel="stylesheet" href="stylesheets/cw10gw20cc24/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+  
+  <link rel="stylesheet" href="stylesheets/domainclock.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+  
+<div id="display">
+  <a id="clock" target="_blank">Domain<span id="colon">.</span>Clock</a>
+</div>
+  
+<div class="container">
+  <div id="ft" class="span-24">
+    <h1>Domain Clock</h1> &nbsp;&nbsp;:&nbsp;&nbsp;
+    Made by <a href="http://ianli.com/" target="_blank">Ian Li</a> &nbsp;&nbsp;:&nbsp;&nbsp;
+    <a href="#" onclick="$('#about').tinymodal();return false;">About</a> &nbsp;&nbsp;:&nbsp;&nbsp;
+    <a href="#" onclick="$('#about').tinymodal();return false;">Share</a>
+  </div>
+</div>
+
+<div id="about" class="container">
+    <div class="span-16">
+      <h2>About</h2>
+      <p>
+        Domain Clock generates domain names of the current time. 
+        I created Domain Clock after browsing a web site made of four numbers (I don't remember the URL),
+        and realizing that the numbers represent time with digits for hours and minutes.
+      </p>
+      
+      <p>
+        Implemented in PHP, HTML, CSS, and Javascript. 
+        Used the <a href="http://jquery.com/" target="_blank">jQuery</a> Javascript library. 
+        The font for the body is Helvetica.
+        The layout is built on top of
+        <a href="http://blueprintcss.org/" target="_blank">Blueprint CSS</a>.
+      </p>
+      
+      <h2>Other</h2>
+      <ul>
+        <li><a href="http://www.simonheys.com/wordclock/" target="_blank">Word Clock by Simon Heys</a></li>
+        <li><a href="http://www.jessonyip.com/analogy/" target="_blank">Analogy by Jesson Yip</a></li>
+        <li><a href="http://www.christiaanpostma.nl/index.htm?clock_3.htm" target="_blank">Clock by Christiaan Postma</a></li>
+        <li><a href="http://www.yugop.com/ver3/stuff/03/fla.html" target="_blank">Industrious Clock by Yugo Nakamura</a></li>
+      </ul>
+      
+      <p>
+        &copy; Copyright <a href="http://ianli.com/" target="_blank">Ian Li</a>.
+        <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">Licensed under the MIT license.</a>
+      </p>
+    </div>
+    
+    <div class="span-8 last">
+      <h2>Share</h2>
+      
+      <iframe src="http://www.facebook.com/plugins/like.php?app_id=269528726408598&amp;href=http%3A%2F%2Fianli.com%2Fdomainclock%2F&amp;send=false&amp;layout=button_count&amp;width=220&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:220px; height:21px;" allowTransparency="true"></iframe>
+      <hr class="space" />
+      
+      <p>
+        <!-- Twitter button -->
+        <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ianli.com/domainclock/" data-count="horizontal">Tweet</a>
+      </p>
+
+      <!-- Google +1 -->
+      <div class="g-plusone" data-size="medium" data-href="http://ianli.com/domainclock/"></div>
+    </div>
+</div>
+
+<!-- Javascripts -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="javascripts/domainclock.js"></script>
+<script type="text/javascript" src="javascripts/jquery.tinymodal.js"></script>
+<script type="text/javascript">
+  new DomainClock().start();
+</script>
+
+<!-- Twitter button -->
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+<!-- Google +1 -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-317324-11");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<!-- StatCounter -->
+<script type="text/javascript">
+var sc_project=3249429; 
+var sc_invisible=1; 
+var sc_partition=35; 
+var sc_security="8b3a3ada";
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+</body>
+</html>
