@@ -1,0 +1,7 @@
+
+# Don't add these files to the _site directory.
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- run_jekyll.sh
